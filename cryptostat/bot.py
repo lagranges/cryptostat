@@ -12,7 +12,7 @@ import traceback
 client = BinaceClient()
 EXCLUDED_SYMBOLS = ["DOTECOUSDT", "DEFIUSDT"]
 LAST_TIME_SENT = {}
-HEARTBEAT = 0.3  # minute
+HEARTBEAT = 0.5  # minute
 DELAY_TO_SEND_MESSAGE = 1  # minute
 PUMPING_PERIODS = [2,3,4,5]
 MINIMUM_PUMPING = 5
